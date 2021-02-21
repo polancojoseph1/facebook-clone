@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/font5/all.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/facebook-logo-2019-1597680-1350125.png">
     </head>
     <body>
         <header class="header">
@@ -19,6 +20,9 @@
                 <div class="header__logo-search">
                     <i class="fas fa-search"></i>
                     <input type="text" placeholder="Search Facebook">
+                </div>
+                <div class="header__mobile-button">
+                    <i class="fas fa-bars"></i>
                 </div>
             </div>
             <div class="header__menu-tabs">
@@ -151,47 +155,67 @@
                         Book Club
                     </span>
                 </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        See More
+                    </span>
+                </div>
             </section>
             <section class="feed">
-                <div class="stories">
-                    <div class="stories__video-container">
-                        <img class="stories__bg" src="https://randomuser.me/api/portraits/women/44.jpg">
-                        <div class="stories__title">
-                            <div class="stories__new-btn">
-                                <i class="fas fa-plus"></i>
+                <div class="stories-div">
+                    <div class="stories">
+                        <div class="stories__video-container">
+                            <img class="stories__bg" src="https://randomuser.me/api/portraits/women/44.jpg">
+                            <div class="stories__title">
+                                <div class="stories__new-btn">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                Create a Story
                             </div>
-                            Create a Story
+                        </div>
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://www.biography.com/.image/t_share/MTE5NTU2MzE2MzIzMTUzNDE5/jim-morrison-9415576-1-402.jpg">
+                            <div class="stories__title">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/women/95.jpg">
+                                Cindy Bane
+                            </div>
+                        </div>
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://images.squarespace-cdn.com/content/v1/57be3fbed482e9578925f2a7/1589048242464-ESTPFXMF4COUW7L30FLT/ke17ZwdGBToddI8pDm48kJ8Nu8jctYmgVON1NWO38P97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTCwMWlPRtADQH9XBirMhWqC9oUtRscZpDxX8WP-1JFbhDu1IQrvWcV79sMhlbVyNQ/How+to+Win+Friends+and+Influence+People+by+Dale+Carnegie+Book+Cover.jpg">
+                            <div class="stories__title">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/men/95.jpg">
+                                Jacob Perez
+                            </div>
+                        </div>
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://www.nycgo.com/images/made/6264e23b91066748/times-square-manhattan-NYC-Tagger-Yancey-IV-5912_900_600_70.jpg">
+                            <div class="stories__title">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/men/90.jpg">
+                                Martin Garcia
+                            </div>
+                        </div>
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwVUkX6jvqB_Tk4o9TGANHgjQHwkSKsEsjjw&usqp=CAU">
+                            <div class="stories__title">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/women/91.jpg">
+                                Cassie Smith
+                            </div>
+                        </div>
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://www.expatica.com/app/uploads/sites/4/2020/06/Bruges-1920x1080.jpg">
+                            <div class="stories__title">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/men/91.jpg">
+                                Kelvin Cole
+                                <div class="next-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="stories__video-container stories__video-container--plain">
-                        <img class="stories__bg" src="https://www.biography.com/.image/t_share/MTE5NTU2MzE2MzIzMTUzNDE5/jim-morrison-9415576-1-402.jpg">
-                        <div class="stories__title">
-                            <img class="stories__user" src="https://randomuser.me/api/portraits/women/95.jpg">
-                            Cindy Bane
-                        </div>
-                    </div>
-                    <div class="stories__video-container stories__video-container--plain">
-                        <img class="stories__bg" src="https://images.squarespace-cdn.com/content/v1/57be3fbed482e9578925f2a7/1589048242464-ESTPFXMF4COUW7L30FLT/ke17ZwdGBToddI8pDm48kJ8Nu8jctYmgVON1NWO38P97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTCwMWlPRtADQH9XBirMhWqC9oUtRscZpDxX8WP-1JFbhDu1IQrvWcV79sMhlbVyNQ/How+to+Win+Friends+and+Influence+People+by+Dale+Carnegie+Book+Cover.jpg">
-                        <div class="stories__title">
-                            <img class="stories__user" src="https://randomuser.me/api/portraits/men/95.jpg">
-                            Jacob Perez
-                        </div>
-                    </div>
-                    <div class="stories__video-container stories__video-container--plain">
-                        <img class="stories__bg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwVUkX6jvqB_Tk4o9TGANHgjQHwkSKsEsjjw&usqp=CAU">
-                        <div class="stories__title">
-                            <img class="stories__user" src="https://randomuser.me/api/portraits/men/90.jpg">
-                            Martin Garcia
-                        </div>
-                    </div>
-                    <div class="stories__video-container stories__video-container--plain">
-                        <img class="stories__bg" src="https://www.nycgo.com/images/made/6264e23b91066748/times-square-manhattan-NYC-Tagger-Yancey-IV-5912_900_600_70.jpg">
-                        <div class="stories__title">
-                            <img class="stories__user" src="https://randomuser.me/api/portraits/women/91.jpg">
-                            Cassie Smith
-                        </div>
-                    </div>
-                </div>
+                <div>
                 <div class="feed__box submitpost">
                     <div class="newpost">
                         <img src="https://randomuser.me/api/portraits/women/44.jpg" class="newpost__user-img">
@@ -200,15 +224,57 @@
                     <div class="hline"></div>
                     <div class="post-types">
                         <div class="post-types__item">
-                            <i class="fas fa-video"></i> Live Video
+                            <i class="fas fa-video"></i> <span class="post-types__title">Video</span>
                         </div>
                         <div class="post-types__item">
-                            <i class="fas fa-photo-video"></i> Photo/Video
+                            <i class="fas fa-photo-video"></i> <span class="post-types__title">Photo Video</span>
                         </div>
                         <div class="post-types__item">
-                            <i class="fas fa-laugh-beam"></i> Feeling/Activity
+                            <i class="fas fa-laugh-beam"></i> <span class="post-types__title">Feeling/Activity</span>
                         </div>
                     </div>
+                </div>
+                <div class="feed__box create-room">
+                    <div class="create-room__bubble">
+                        <i class="fas fa-video"></i>
+                        <span> Create Room </span>
+                    </div>
+                    <div class="create-room__user-bubbles">
+                        <div class="create-room__item">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg">
+                        </div>
+                        <div class="create-room__item">
+                            <img src="https://randomuser.me/api/portraits/women/13.jpg">
+                            <div class="online-bubble">.</div>
+                        </div>
+                        <div class="create-room__item">
+                            <img src="https://randomuser.me/api/portraits/men/13.jpg">
+                            <div class="online-bubble">.</div>
+                        </div>
+                        <div class="create-room__item">
+                            <img src="https://randomuser.me/api/portraits/women/24.jpg">
+                            <div class="online-bubble">.</div>
+                        </div>
+                        <div class="create-room__item">
+                            <img src="https://randomuser.me/api/portraits/women/12.jpg">
+                        </div>
+                        <div class="create-room__item">
+                            <img src="https://randomuser.me/api/portraits/men/20.jpg">
+                            <div class="online-bubble">.</div>
+                        </div>
+                        <div class="create-room__item">
+                            <img src="https://randomuser.me/api/portraits/men/10.jpg">
+                            <div class="online-bubble">.</div>
+                        </div>
+                        <div class="create-room__item">
+                            <img src="https://randomuser.me/api/portraits/men/44.jpg">
+                            <div class="online-bubble">.</div>
+                        </div>
+                    </div>
+                    <div class="create-room__chevron">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
                 </div>
                 <div class="feed__box photopost">
                     <div class="photopost__info">
@@ -216,7 +282,8 @@
                             <img src="https://randomuser.me/api/portraits/men/44.jpg">
                             <div class="photopost__details">
                                 <span class="photopost__name"> James Doe </span>
-                                <span class="photopost__date">November 13 at 10:40pm<i class="fas fa-user-friends"></i></span>
+                                <span class="photopost__date">November 13 at 10:40pm
+                                    <i class="fas fa-user-friends"></i></span>
                             </div>
                         </div>
                         <i class="fas fa-ellipsis-h"></i>
@@ -227,9 +294,236 @@
                     <div class="photopost__image">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Beach_bikepath_in_the_Venice_Beach_park%2C_California.jpg">
                     </div>
-                    
+                    <div class="photopost__stats">
+                        <div class="photopost__stats-emojis">
+                            <div class="emoji-circle emoji-circle--blue">
+                                <i class="fas fa-thumbs-up"></i>
+                            </div>
+                            <div class="emoji-circle emoji-circle--red">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="emoji-circle emoji-circle--yellow">
+                                <i class="fas fa-surprise"></i>
+                            </div>
+                            3.3k
+                        </div>
+                        <div class="photopost__stats-share">
+                            788 Comments  72 Shares
+                        </div>
+                    </div>
+                    <div class="hline"></div>
+                    <div class="photopost__actions">
+                        <a href="#" class="photopost__link">
+                            <i class="fas fa-thumbs-up"></i>Like
+                        </a>
+                        <a href="#" class="photopost__link">
+                            <i class="fas fa-comment"></i>Comment
+                        </a>
+                        <a href="#" class="photopost__link">
+                            <i class="fas fa-share"></i>Share
+                        </a>
+                    </div>
+                    <div class="hline"></div>
                 </div>
             </section>
+            <section class="sidenav-right">
+                <div class="sidenav-right__sponsored">
+                    <div class="sidenav-right__title">Sponsored</div>
+                    <div class="sidenav-right__sponsored-container">
+                        <div class="sponsored-bubble">
+                            <img src="/images/linux.webp">
+                        </div>
+                        <div class="sidenav-right__sponsored-description">
+                            <span>A Cloud Guru</span>
+                            <span>acloudguru.com</span>
+                        </div>
+                    </div>
+                    <div class="sidenav-right__sponsored-container">
+                        <div class="sponsored-bubble">
+                            <img src="/images/youtube.png">
+                        </div>
+                        <div class="sidenav-right__sponsored-description">
+                            <span>Youtube Originals</span>
+                            <span>youtube.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hline"></div>
+                <div class="sidenav-right__birthdays">
+                    <div class="sidenav-right__title">Birthdays</div>
+                    <div class="sidenav-right__birthdays-container">
+                        <i class="fas fa-gift"></i>
+                        <div class="sidenav-right__birthdays-description">
+                            <span class="sidenav-right__birthdays-user">
+                                Genesis Mendes
+                            </span> 
+                            and 
+                            <span class="sidenav-right__birthdays-others">8 others</span>
+                            have birthdays today.
+                        </div>
+                    </div>
+                </div>
+                <div class="hline"></div>
+                <div class="sidenav-right__contacts">
+                    <div class="sidenav-right__contacts-container">
+                        <div class="sidenav-right__title">Contacts</div>
+                        <div class="sidenav-right__contacts-options">
+                            <i class="fas fa-video"></i>
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Nancy Simpson
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/men/41.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Billy Cole
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Jennifer Marie
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/men/50.jpg" class="sidenav__item-img">
+                            <div class="null">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            John Doe
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/men/42.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Jake Rogers
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/women/39.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Erika Brown
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/men/39.jpg" class="sidenav__item-img">
+                            <div class="null">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Rushil Khan
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/women/46.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Ashley Perdomo
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/women/48.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Melody Nguyen
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/men/58.jpg" class="sidenav__item-img">
+                            <div class="null">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Micheal LaBlanc
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/men/86.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Jose Rodriguez
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/men/56.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Tyson Marcus
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/women/86.jpg" class="sidenav__item-img">
+                            <div class="null">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Rachelle Navelle
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/women/66.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Nelly Lee
+                        </span>
+                    </div>
+                    <div class="sidenav__item">
+                        <img src="https://randomuser.me/api/portraits/men/47.jpg" class="sidenav__item-img">
+                            <div class="online-bubble">.</div>
+                        </img>
+                        <span class="sidenav__item-title">
+                            Richard Robinson
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="floatingmsg">
+            <div class="floatingmsg__bubble">
+                <img src="https://randomuser.me/api/portraits/women/14.jpg">
+                <div class="floatingmsg__notification">1</div>
+            </div>
+            <div class="floatingmsg__bubble">
+                <img src="https://randomuser.me/api/portraits/women/24.jpg">
+                <div class="floatingmsg__notification">3</div>
+            </div>
+            <div class="floatingmsg__bubble">
+                <img src="https://randomuser.me/api/portraits/men/33.jpg">
+                <div class="floatingmsg__notification">2</div>
+            </div>
+            <div class="floatingmsg__bubble">
+                <img src="https://randomuser.me/api/portraits/women/18.jpg">
+                <div class="floatingmsg__notification">1</div>
+            </div>
+            <div class="floatingmsg__bubble">
+                <img src="https://randomuser.me/api/portraits/men/18.jpg">
+                <div class="floatingmsg__notification">1</div>
+            </div>
+            <div class="floatingmsg__bubble">
+                <img src="https://randomuser.me/api/portraits/men/99.jpg">
+                <div class="floatingmsg__notification">1</div>
+            </div>
+            <div class="floatingmsg__bubble">
+                <i class="fas fa-edit"></i>
+            </div>
         </section>
     </body>
 </html>
