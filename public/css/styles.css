@@ -196,6 +196,12 @@ header{
 
 .sidenav {
     width: 25%;
+    position: fixed;
+    overflow: scroll;
+}
+
+.sidenav-area {
+    width: 25%;
 }
 
 .sidenav__item {
@@ -453,13 +459,6 @@ header{
     font-weight: 300;
     width: 100%;
 }
-
-/* .hline {
-    height: 1px;
-    background: var(--button-link);
-    margin-bottom: 15px;
-    display: block;
-} */
 
 .post-types {
     display: flex;
@@ -916,6 +915,12 @@ header{
     display: block;
 }
 
+@media only screen and (max-width: 1340px) {
+    .sidenav__line {
+        width: 70%;
+    }
+}
+
 @media only screen and (max-width: 1300px) {
     .header__menu-tab {
         display: none;
@@ -924,6 +929,10 @@ header{
     .feed {
         width: 100%;
     }
+
+    .sidenav__line {
+        width: 60%;
+    }
     
 }
 
@@ -931,10 +940,18 @@ header{
     .sidenav-right {
         display: none;
     }
+
+    .sidenav__line {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .sidenav {
+        display: none;
+    }
+
+    .sidenav-area {
         display: none;
     }
 
