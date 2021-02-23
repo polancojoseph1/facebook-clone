@@ -197,7 +197,6 @@ header{
 .sidenav {
     width: 25%;
     position: fixed;
-    overflow: scroll;
 }
 
 .sidenav-area {
