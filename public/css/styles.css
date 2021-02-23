@@ -46,6 +46,7 @@ header{
 
 .header__logo-section {
     display: flex;
+    width: 25%;
 }
 
 .header__logo-icon .fa-facebook{
@@ -88,10 +89,8 @@ header{
 .header__menu-tabs {
     display: flex;
     max-width: 600px;
-    width: 100%;
+    width: 50%;
     flex: none;
-    position: fixed;
-    right: 400px;
 }
 
 .header__menu-tab {
@@ -137,6 +136,10 @@ header{
     top: -12px;
     right: -10px;
     font-weight: 700;
+}
+
+.header__account-space {
+    width: 25%;
 }
 
 .header__account {
@@ -920,7 +923,7 @@ header{
     }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1250px) {
     .header__menu-tab {
         display: none;
     }
@@ -932,10 +935,7 @@ header{
     .sidenav__line {
         width: 60%;
     }
-    
-}
 
-@media only screen and (max-width: 1250px) {
     .sidenav-right {
         display: none;
     }
@@ -1006,9 +1006,6 @@ header{
 }
 
 @media only screen and (max-width: 374px) {
-    .header__account {
-        /* display: none; */
-    }
 
     .post-types__title {
         display: none;
